@@ -188,7 +188,7 @@
                     STOP_TIME=parseInt(str_time[0])
                     objects_str=str_time[1].split('---')
                     for(i=0; i<objects_str.length-1; i++){
-                        console.log(objects_str[i])
+                        
                         var chars=objects_str[i].split(';')
                         objs.push(new Objects(
                         [parseFloat(chars[0]), parseFloat(chars[1]), parseFloat(chars[2])],
@@ -197,7 +197,7 @@
                         chars[9],
                         chars[10]
                         ))
-                        console.log(chars[10])
+                        
                     }
                 },
                 p:function(){
